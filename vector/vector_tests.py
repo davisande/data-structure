@@ -1,4 +1,4 @@
-from vector.NotOrderedVector import NotOrderedVector
+from not_ordered_vector import NotOrderedVector
 
 
 def tests():

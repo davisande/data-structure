@@ -2,6 +2,7 @@ import numpy as np
 
 
 class NotOrderedVector:
+
     def __init__(self, capacity):
         self.capacity = capacity
         self.last_position = -1

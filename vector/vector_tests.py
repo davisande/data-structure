@@ -2,7 +2,7 @@ from not_ordered_vector import NotOrderedVector
 from ordered_vector import OrderedVector
 
 
-def test_not_ordered_vector():
+def not_ordered_vector_test():
     vector = NotOrderedVector(5)
     vector.print()
 
@@ -34,7 +34,7 @@ def test_not_ordered_vector():
     print(index)
 
 
-def test_ordered_vector():
+def ordered_vector_test():
     vector = OrderedVector(5)
     vector.print()
 
@@ -80,5 +80,10 @@ def test_ordered_vector():
 
 
 if __name__ == '__main__':
-    # test_not_ordered_vector()
-    test_ordered_vector()
+    print('NOT ORDERED VECTOR TESTS')
+    print('------------------------')
+    not_ordered_vector_test()
+    print('')
+    print('ORDERED VECTOR TESTS')
+    print('--------------------')
+    ordered_vector_test()
